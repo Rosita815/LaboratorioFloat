@@ -21,19 +21,23 @@ body{
     padding-top: 30px;
 }
 
-main{
+.main_global{
     background-color: white;
     width: 100%;
 }
 
-article{
+.main_article{
     float: left;
     height: auto;
     width: 22%;
     margin: 2em 1em;
 }
+.main_article> p{
+    text-align: justify;
+    margin-top: 10px;
+}
 
-.imagen{
+.main_article_imagen{
 background-color: teal;
 height: 200px;
 background-image: url("https://images.unsplash.com/photo-1528571418557-664a69926796?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHVuaXZlcnN1bXxlbnwwfHwwfHx8MA%3D%3D");
@@ -41,3 +45,8 @@ background-size: cover;
 opacity: 0.8;
 }
 
+.footer_main{
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+}
