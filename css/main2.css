@@ -5,28 +5,87 @@
 }
 header{
     text-align: center;
-    background-color: dimgray;
+    background-color: rgb(39, 35, 35);
     color: white;
+    margin: 5px 5px;
+    padding: 20px;
     }
     
     nav{
         background-color: darkslategray;
+        margin: 5px 5px;
     }
     
     nav ul li{
      background-color: darkslategray;
-     text-decoration: none;
      display: inline;
-     
+     margin-right: 6px;
     }
     nav ul li a{
-        
      color: white;
+     text-decoration: none;
     }
+    .main-content{
+        height: 97px;
+    }
+    .articulo_principal {
+        background-color: rgb(205, 213, 222);
+        float: left;
+        width: 70%;
+        margin: 5px 5px;
+        padding: 20px;
+    }
+  
+    .aside_latera {
+        background-color: rgb(150, 148, 148);
+        margin: 5px 5px;
+        float: right;
+        width: 27%;
+        padding: 20px;
+    }
+    
     footer{
-     float: inline-end;
-     background-color: dimgray;
+     background-color: rgb(39, 35, 35);
      color: white;
-     width: 100%;
      text-align: center;
+     padding: 10px;
+     margin: 5px 5px;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
